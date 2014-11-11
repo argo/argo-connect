@@ -1,0 +1,33 @@
+{
+  "name": "argo-connect",
+  "version": "0.1.0",
+  "description": "An adapter for wrapping connect middleware for use in Argo.",
+  "main": "adapter.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "~2.0.1",
+    "supertest": "~0.15.0",
+    "argo": "~0.5.0"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/argo/argo-connect.git"
+  },
+  "keywords": [
+    "argo",
+    "connect",
+    "adapter"
+  ],
+  "author": "Kevin Swiber <kswiber@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argo/argo-connect/issues"
+  },
+  "homepage": "https://github.com/argo/argo-connect"
+}
