@@ -2,6 +2,8 @@
 
 An adapter for wrapping connect middleware for use in [Argo](https://github.com/argo/argo).
 
+[![Build Status](https://api.travis-ci.org/argo/argo-connect.svg?branch=master)](https://travis-ci.org/argo/argo-connect)
+
 ## Install
 
 `npm install argo-connect`
